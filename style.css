@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+header{
+    background-color: #000000;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    clear: both;
+    width: 100%;
+    height: 70px;
+    background-color:#000000;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.menuber{
+    display: flex;
+}
+.menuitem{
+    list-style: none;
+}
+.wrap{
+    width: 1600px;
+    padding: 35px;
+}
+.pic{
+    padding: 20px;
+}
+.Form-Item{
+    margin: 20px;
+}
+.wrap2{
+    width: 1300px;
+    /* text-align: left; */
+    padding: 20px;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+  }
+.carback{           
+    background-image: url(../img/McLaren.jpg);
+    background-position: center center;   
+    background-repeat: no-repeat; 
+    background-attachment: fixed;   
+    background-size: cover;    
+}
+body{
+     background: -webkit-linear-gradient(top, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+     background-blend-mode: multiply;
+     color:aliceblue;
+}
+.wrapper{
+    height: 100%;
+    min-height: 70vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 600px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+.car_name{
+    display: flex;
+}
+.Form-Item-Input{
+    width: 40%;
+}
+.Form-Item-Textarea{
+    width: 60%;
+    height: 300px;
+}
+form{
+    /* width: 60%;
+    margin: 0 auto; */
+}
+
+/*.footer-content1 {
+    padding: 40px 0 0 0;
+    float: left;
+    width: 50%;
+    color: #ffffff;
+ }
+ 
+ .footer-content2 {
+    padding: 40px 0 0 0;
+    float: left;
+    width: 33%;
+    color: #ffffff;
+ }*/
+ 
+
+
